@@ -1,0 +1,186 @@
+/*Nav css document-for the navbar, do not edit without contacting me @success_fred@yahoo.com
+outline: 1px dotted black;
+
+
+nav{
+	border: 1px solid black;
+	height: auto;
+	line-height: 1.5rem;
+}
+
+.navbar-content{
+	border: 1px solid blue;
+	list-style: none;
+	height: auto;
+}*/
+
+/*Top Menu*/
+
+@import url('https://fonts.googleapis.com/css?family=Space Mono&display=swap');
+#navbar{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: auto;
+	line-height: 1.5rem; /*Distance between two vertical content in the navbar*/
+	position: fixed;
+	top: 0;
+	background-color: white;
+	font-family: 'Space Mono', sans-serif;
+	
+
+
+}
+
+#menuHeaderNavbar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 1.5rem;
+	background-color: white;
+	font-family: 'Space Mono', sans-serif;
+	display: none;
+		
+}
+.menu-header{
+	display: inline-block;
+	/*border: 1px solid black;*/
+	width: 100%;
+}
+
+.menu-header a{
+	text-decoration: none;
+	font-size:110%;
+	text-rendering: optimizeLegibility;
+	letter-spacing: 0.2rem;
+	color: black;
+	padding-top: 1.3% !important;
+	margin-right: 1.3%;
+	margin-left: 1.3%;
+}
+
+.menu-header-menu{
+	float: right;
+}
+
+.menu-header-menu:hover{
+	color: #a9a9a9;
+}
+
+.menu-header-text{
+	float: left;
+}
+
+.closebutt{
+	float: right;
+}
+
+
+/*Side Menu*/
+
+.menu-header-navbar a{
+	text-decoration: none;
+	font-size:110%;
+	text-rendering: optimizeLegibility;
+	letter-spacing: 0.2rem;
+	color: black;
+	padding-top: 1.3% !important;
+	margin-right: 1.3%;
+	margin-left: 1.3%;
+}
+
+.menu-header-navbar-text{
+	float: left;
+}
+
+.closebutt:hover{
+	color: #a9a9a9;
+}
+
+.menu-header-navbar-content{
+	line-height: 2.075;
+	padding: 6.6rem 3rem 3.6rem 0rem;
+}
+
+.menu-header-navbar-list-socials{
+	list-style: none;
+	
+
+}
+.menu-header-navbar-list-socials li{
+	width: 25%;
+	display: inline;
+	margin-right: 2.3%;
+	line-height: 7rem;
+
+}
+
+.AlfredMichael{
+	margin-top: 0px !important;
+	font-size:65% !important;
+}
+
+.menu-header-navbar-content p{
+	margin-left: 1.4%;
+	margin-top: 2.5%;
+	letter-spacing: 0.2rem;
+	font-size:110%;
+
+}
+
+.menu-header-navbar-list{
+	list-style: none;
+	
+}
+
+.menu-header-navbar-list li a:hover{
+	text-decoration: line-through;
+}
+
+/*Mobile devices*//*Top Menu*/
+@media only screen and (max-width:600px) {
+  	.menu-header a{
+		font-size:65%;
+		font-weight:100;
+	}
+
+	.menu-header a{
+		letter-spacing: 0rem;
+	}
+
+	
+}
+
+/*RGB(51, 51, 51)*/
+/*#333333 archivo, Space mono*/
+
+/*Mobile devices*//*Side Menu*/
+@media only screen and (max-width:600px) {
+  	.menu-header-navbar a{
+		font-size:65%;
+		font-weight:100;
+	}
+	.AlfredMichael{
+	font-size:55% !important;
+}
+
+	.menu-header-navbar-content{
+		padding: 4.4rem 3rem 3.6rem 0rem;
+	}
+
+	.menu-header-navbar-content p{
+	    font-size:65%;
+	    margin-top: 7.5%;
+		letter-spacing: 0rem;
+	}
+
+	.menu-header-navbar a{
+		letter-spacing: 0rem;
+	}
+
+	.menu-header-navbar-list-socials li{
+		line-height: 3.3rem;
+
+	}
+	
+}
